@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: #D0E4F5 url("img/paper2.jpg") no-repeat scroll 0 0;
+}
+
+
+h1, p, button {
+font-family: 'Yeon Sung', cursive;
+}
+h2, h3 {
+font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 15px auto;
+}
+
+.section-box {
+  border: 2px solid #000;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 27px 0;
+}
+
+div {
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: 17px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul li {
+  width: 80%;
+  max-width: 100px;
+  display: inline-block;
+  text-align: center;
+  margin: 15px 6%;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: #fff;
+  transition: background-color 1000ms;
+}
+
+ul li p {
+  padding: 15%;
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.hide {
+  display: none;
+}
+
+
+
+/*********Layer One************/
+.block {
+  color: #fff;
+}
+.red-one {
+  background-color: #a60000;
+}
+.green-one {
+  background-color: #1d601e;
+}
+.blue-one {
+  background-color: #1d14b1;
+}
+.yellow-one {
+  background-color: #c3a222;
+}
+.white {
+  background-color: #fff;
+  transition: background-color 1000ms;
+}
+/******************************/
+
+
+
+/*********Layer Two************/
+.block {
+  color: #fff;
+}
+.red-one {
+  background-color: #a60000;
+}
+.green-one {
+  background-color: #1d601e;
+}
+.blue-one {
+  background-color: #1d14b1;
+}
+.yellow-one {
+  background-color: #c3a222;
+}
+.white {
+  background-color: #fff;
+  transition: background-color 1000ms;
+}
+/******************************/
+
+
+
+.blue {
+  background-color: #fff;
+  transition: background-color 1000ms;
+}
