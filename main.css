@@ -95,30 +95,19 @@ ul li p {
 
 
 /*********Layer Two************/
-.block {
-  color: #fff;
+.block-2 {
+
 }
-.red-one {
-  background-color: #a60000;
+
+.bob {
+  -webkit-animation: mover 1s;
+  animation: mover 1s;
 }
-.green-one {
-  background-color: #1d601e;
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(15px); }
+    100% { transform: translateY(0px); }
 }
-.blue-one {
-  background-color: #1d14b1;
-}
-.yellow-one {
-  background-color: #c3a222;
-}
-.white {
-  background-color: #fff;
-  transition: background-color 1000ms;
-}
+
 /******************************/
-
-
-
-.blue {
-  background-color: #fff;
-  transition: background-color 1000ms;
-}
