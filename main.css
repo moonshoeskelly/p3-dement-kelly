@@ -17,9 +17,10 @@ font-family: 'Roboto', sans-serif;
 }
 
 h1 {
+
   text-align: center;
   font-size: 2rem;
-  margin: 15px auto;
+  margin: 60px auto 15px auto;
 }
 
 .section-box {
