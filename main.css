@@ -23,11 +23,12 @@ h1 {
 }
 
 .section-box {
-  border: 2px solid #000;
+  border: 3px solid #000;
   width: 90%;
   max-width: 600px;
   margin: 0 auto;
-  padding: 27px 0;
+  padding: 45px 0;
+  height: 300px;
 }
 
 div {
@@ -133,6 +134,13 @@ ul li p {
   transition: opacity 1000ms;
 }
 
+#my-fortune {
+  font-size: 1.4rem;
+  border: 10px double #000;
+  margin: 10px 11% 45px 11%;
+  padding: 16px 2%;
+}
+
 a {
   text-decoration: none;
 }
@@ -146,3 +154,28 @@ a {
   color: #fff;
 }
 /******************************/
+
+
+
+
+/*********Media Queries************/
+@media (min-width: 552px) {
+  ul li {
+    margin: 30px 10%;
+  }
+}
+
+@media (min-width: 650px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  p {
+    font-size: 1.6rem;
+  }
+  ul li {
+    margin: 15px 3%;
+  }
+}
