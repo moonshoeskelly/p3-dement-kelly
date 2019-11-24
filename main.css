@@ -9,7 +9,7 @@ body {
 }
 
 
-h1, p, button {
+h1, p, a {
 font-family: 'Yeon Sung', cursive;
 }
 h2, h3 {
@@ -109,5 +109,40 @@ ul li p {
     50% { transform: translateY(15px); }
     100% { transform: translateY(0px); }
 }
+/******************************/
 
+
+
+/*********Layer Three************/
+.hide2 {
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+/******************************/
+
+
+
+/*********Layer Four************/
+.hidden {
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+
+.show {
+  opacity: 100;
+  transition: opacity 1000ms;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  background-color: #1d601e;
+  border: 2px solid #000;
+  border-radius: 24px;
+  padding: 2px 5% 5px 5%;
+  font-size: 1.5rem;
+  color: #fff;
+}
 /******************************/
